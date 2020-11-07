@@ -1,6 +1,6 @@
 # JxYML
 
-The JxYML API is a simple way to safe and load data.
+The JxYML API is a simple way to save and load data.
 
 To see some examples please look at the [wiki](https://github.com/Zero-Developing/JxYML/wiki).
 
