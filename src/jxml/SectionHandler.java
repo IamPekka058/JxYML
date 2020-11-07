@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -89,17 +90,40 @@ public class SectionHandler {
     public Section getSection(String key){
         return sections.get(key);
     }
+    /*
+    Checks if a Section is already registered in the SectionHandler.
 
+    _BUG_
+    Returns everytime you call it false
+    */
     public Boolean containsSection(Section section){
-        if(section == sections.get(section.getClassname())){
+        if(sections.containsKey(section.getClassname())){
             return true;
-        }else{
-
         }
         return false;
     }
 
     public void removeSection(Section section){
         sections.remove(section.getClassname());
+    }
+
+    /*
+    __New Method__ Version pre-v.0.3
+    Returns every Section registered in the HashMap
+    */
+    public HashMap<String, Section> getAllSectionsbyHashMap(){
+        return sections;
+    }
+
+    /*
+    __New Method__ Version pre-v.0.3
+    Converts all Sections into a ArrayList
+    */
+    public ArrayList<Section> getAllSectionsbyArrayList(){
+        ArrayList<Section> temp_array = new ArrayList<>();
+        sections.forEach((key, section) -> {
+            temp_array.add(section);
+        });
+        return temp_array;
     }
 }
