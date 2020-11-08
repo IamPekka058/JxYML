@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## Welcome to the JxYML API page
 
-You can use the [editor on GitHub](https://github.com/IamPekka058/JxYML/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The JxYML API is a simple way to save and load data. This project is ***open-source*** so everyone can collaborate.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The API is still under developing and the lastest version is [pre-v.0.2](https://github.com/IamPekka058/JxYML/releases/tag/pre-v.0.2).
 
-### Markdown
+### Installation
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+To get the lastest version of the JxYML API go to the [release-site](https://github.com/IamPekka058/JxYML/releases/) and download the JxYML.jar under the "Assets" folder.
 
-```markdown
-Syntax highlighted code block
+Release-Site -> Version -> Assets -> JxYML.jar
 
-# Header 1
-## Header 2
-### Header 3
+To use the API you have to include the jar in your project.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IamPekka058/JxYML/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### IntelliJ
+File -> Project Structure -> Libraries -> New Project Library -> Java
