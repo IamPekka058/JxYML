@@ -2,7 +2,7 @@
 
 GitHub page: [Click me!](https://iampekka058.github.io/JxYML)
 
-The JxYML API is a simple way to save and load data under the xyml file format. This project is **open-source** so everyone of you collaborate.
+The JxYML API is a simple way to save and load data under the XYML file format. This project is **open-source** so everyone of you collaborate.
 
 The API is still **under developing** and the lastest version is pre-v.0.2.
 
